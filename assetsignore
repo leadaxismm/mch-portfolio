@@ -1,0 +1,6 @@
+# Keep version control and build config out of the deployed site
+.git
+.git/**
+.gitignore
+wrangler.jsonc
+README.md
