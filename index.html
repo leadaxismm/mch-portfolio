@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MCH PORTFOLIO</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f766e'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white'%3E%E2%9C%9A%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="./app.css" />
+<style>
+  html,body{margin:0;background:#f8fafc}
+  body{font-family:ui-sans-serif,system-ui,"Segoe UI",Tahoma,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  ::-webkit-scrollbar{height:9px;width:9px}::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:9px}::-webkit-scrollbar-track{background:transparent}
+  [dir=rtl] *{letter-spacing:0}
+  @keyframes slidein{from{transform:translateX(var(--tw-enter,20px));opacity:.4}to{transform:none;opacity:1}}
+  #splash{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;background:#f8fafc;z-index:100}
+  #splash .r{height:38px;width:38px;border-radius:999px;border:3px solid #e2e8f0;border-top-color:#0f766e;animation:sp 1s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  @media print{ header.no-print,aside.no-print,.no-print,.no-print *{display:none!important} main{padding:0!important} .report-head{display:flex!important} body{background:#fff} }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="splash"><div class="r"></div><div style="color:#0f766e;font-weight:700;font-size:15px">MCH PORTFOLIO</div></div>
+<script src="./app.js"></script>
+</body>
+</html>
